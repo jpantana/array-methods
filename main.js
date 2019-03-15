@@ -16,7 +16,6 @@ const addPassenger = (name, wallet, isStruggling, seat) => {
     } 
 };
 
-
 const splicePassenger = (name, wallet, isStruggling, seat) => {
     const midPass = (struggleBus.length / 2);
     const newPassenger = {
@@ -29,9 +28,6 @@ const splicePassenger = (name, wallet, isStruggling, seat) => {
     }
     console.log(midPass);
 };
-
-
-
 
 const unloadPassenger = (bus, seat) => {
     // remove a passenger from the bus
@@ -75,7 +71,6 @@ const busBuilder = (bus) => {
 };
 
 // challenge - add a person to the middle of the bus
-
 
 const init = () => {
     addPassenger('Michael', 6, true, 'front');
